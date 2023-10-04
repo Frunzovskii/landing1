@@ -1,0 +1,181 @@
+@import url('https://fonts.googleapis.com/css2?family=AR+One+Sans:wght@600&family=Anton&family=Inter:wght@400;700&family=Nanum+Myeongjo:wght@700&family=Open+Sans&family=Oswald:wght@700&family=Righteous&family=Sora:wght@600&family=Urbanist:wght@500;600&display=swap');
+/* http://meyerweb.com/eric/tools/css/reset/ 
+   v2.0 | 20110126
+   License: none (public domain)
+*/
+
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed, 
+figure, figcaption, footer, header, hgroup, 
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	font-size: 100%;
+	vertical-align: baseline;
+}
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure, 
+footer, header, hgroup, menu, nav, section {
+	display: block;
+}
+body {
+	line-height: 1;
+}
+ol, ul {
+	list-style: none;
+}
+blockquote, q {
+	quotes: none;
+}
+blockquote:before, blockquote:after,
+q:before, q:after {
+	content: '';
+	content: none;
+}
+table {
+	border-collapse: collapse;
+	border-spacing: 0;
+}
+
+/*Navigation*/
+
+
+.navigation{
+    width: 95%;
+    margin-top: 30px;
+    margin-bottom: 150px;
+    
+   
+}
+
+.img-logo-menu{
+    display: inline-block;
+    margin-left: 100px;
+}
+.nav-main_list{
+    display: inline-block;
+    
+    margin-right: 50px;
+}
+.list{
+    display: inline-block;
+    margin-left: 50px;
+}
+.nav-right{
+    display: inline-block;
+    margin-left: 600px;
+}
+.link{
+    text-decoration: none;
+    color: #0F172A;
+    
+}
+
+/*Section-1*/
+.section-1{
+    display: flex;
+    flex-wrap: wrap;
+    width: 90%;
+    justify-content: space-between;
+    margin: 0 auto;
+
+}
+
+
+.container-1{
+    width: 489px;
+    height: 440px;
+    margin-left: 100px;
+    margin-top: 50px;
+}
+.private{
+    font-size: 48px;
+    line-height: 48px;
+    margin: 20px 0 20px 0;
+}
+.access{
+    font-size: 18px;
+    line-height: 27px;
+}
+.rose{
+    width: 401px;
+    height: 90px;
+}
+.rose-1{
+    display: flex;
+    flex-wrap: wrap;
+    margin-top: 20px;
+}
+.nb-1{
+    border: 1px solid #FF4171;
+    border-radius: 23px;
+    color: #FF4171;
+    height: 37px;
+    text-align: center;
+    line-height: 35px;
+    width: 128px;
+    margin-bottom:15px ;
+}
+.nb-2{
+    border: 1px solid #FF4171;
+    border-radius: 23px;
+    color: #FF4171;
+    height: 37px;
+    text-align: center;
+    line-height: 35px;
+    width: 79px;
+    margin-left: 5px;
+}
+.nb-3{
+    border: 1px solid #FF4171;
+    border-radius: 23px;
+    color: #FF4171;
+    height: 37px;
+    text-align: center;
+    line-height: 35px;
+    width: 178px;
+    margin-left: 5px;
+}
+.nb-4{
+    border: 1px solid #FF4171;
+    border-radius: 23px;
+    color: #FF4171;
+    height: 37px;
+    text-align: center;
+    line-height: 35px;
+    width: 171px;
+}
+.interested{
+    width: 261px;
+    height: 44px;
+    border: 1px solid #00F5BC;
+    border-radius: 30px;
+    background-color: #00F5BC;
+    font-size: 14px;
+    line-height: 20px;
+    color: #0F172A;
+    text-align: center;
+    line-height: 40px;
+    margin-top: 50px;
+}
+#rosu{
+    position: absolute;
+    right: 130px;
+    top: 140px;
+}
+
+#verde{
+    position: absolute;
+    right: 510px;
+    top: 590px;
+}
