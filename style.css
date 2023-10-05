@@ -52,34 +52,33 @@ table {
 
 
 .navigation{
-    width: 95%;
-    margin-top: 30px;
-    
-   
+    width: 100%;
+    max-width: 1300px;
+    margin: auto;
+    padding: 12px 0;
 }
-
-.img-logo-menu{
-    display: inline-block;
-    margin-left: 100px;
-}
-.nav-main_list{
-    display: inline-block;
-    
-    margin-right: 50px;
-}
-.list{
-    display: inline-block;
-    margin-left: 50px;
-}
-.nav-right{
-    display: inline-block;
-    margin-left: 600px;
+.nav-left{
+    display: flex;
+    flex-direction: row;
+    align-content: center;
+    align-items: center;
+    ;
 }
 .link{
     text-decoration: none;
-    color: #0F172A;
-    
+    color: #0F172A;   
 }
+.nav-main_list{
+    display: flex;
+
+}
+.nav-right{
+    margin-left: auto;
+}
+.list{
+    margin-left: 25px;
+}
+
 
 /*SECTION-1*/
 .section-1{

@@ -1,0 +1,237 @@
+@import url('https://fonts.googleapis.com/css2?family=AR+One+Sans:wght@600&family=Anton&family=Inter:wght@400;700&family=Nanum+Myeongjo:wght@700&family=Open+Sans&family=Oswald:wght@700&family=Righteous&family=Sora:wght@600&family=Urbanist:wght@500;600&display=swap');
+/* http://meyerweb.com/eric/tools/css/reset/ 
+   v2.0 | 20110126
+   License: none (public domain)
+*/
+
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed, 
+figure, figcaption, footer, header, hgroup, 
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	font-size: 100%;
+	vertical-align: baseline;
+}
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure, 
+footer, header, hgroup, menu, nav, section {
+	display: block;
+}
+body {
+    font-family: 'AR One Sans';
+	line-height: 1;
+}
+ol, ul {
+	list-style: none;
+}	
+
+blockquote, q {
+	quotes: none;
+}
+blockquote:before, blockquote:after,
+q:before, q:after {
+	content: '';
+	content: none;
+}
+table {
+	border-collapse: collapse;
+	border-spacing: 0;
+}
+
+/*Navigation*/
+
+
+.navigation{
+    width: 100%;
+    max-width: 1300px;
+    margin: auto;
+    padding: 12px 0;
+    margin-bottom: 16px;
+}
+.nav-left{
+    display: flex;
+    flex-direction: row;
+    align-content: center;
+    align-items: center;
+}
+.link{
+    text-decoration: none;
+    color: #0F172A;   
+}
+.nav-main_list{
+    display: flex;
+
+}
+.nav-right{
+    margin-left: auto;
+}
+.list{
+    margin-left: 25px;
+}
+/*Section-1*/
+.section-1{
+    width: 100%;
+    max-width: 1300px;
+    display: flex;
+    margin: 0 auto 104px;
+}
+.aboutmid{
+    margin-top: 212px;
+    width: 588px;
+    height: 159px;
+}
+
+.verdemic{
+    position: absolute;
+    left: 130px;
+    top: 175px;
+}
+.rozovmic{
+    position: absolute;
+    left: 447px;
+    top: 545px;
+}
+h1{
+    font-size: 48px;
+    line-height: 48px;
+    color: #0F172A;
+    margin-bottom: 24px;
+}
+.mid{
+    font-size: 48px;
+    line-height: 48px;
+    color:#FF4171
+}
+.p-1{
+    font-size: 18px;
+    line-height: 29px;
+    color: #0F172A;
+}
+.tel{
+    margin-left: 30px;
+}
+
+.principles{
+    margin-left: 140px;
+    margin-bottom: 48px;
+    font-size: 48px;
+    line-height: 64px;
+}
+/*Section-2*/
+.section-2{
+    width: 100%;
+    max-width: 1300px;
+    display: flex;
+    flex-wrap: wrap;
+    margin: 0 auto;
+    justify-content: space-between;
+
+}
+.container-1{
+    width: 320px;
+    height: 358px;
+    padding: 32px;
+    background-color: #F5F7FA;
+    text-align: center;
+}
+.container-2{
+    width: 320px;
+    height: 286px;
+    padding: 32px 32px 104px 32px;
+    background-color: #F5F7FA;
+    text-align: center;
+}
+.container-3{
+    width: 320px;
+    height: 310px;
+    padding: 32px 32px 80px 32px;
+   background-color: #F5F7FA;
+   text-align: center;
+}
+h2{
+    font-size: 32px;
+    line-height: 38px;
+    text-align: center;
+    margin: 24px 0 24px 0;
+}
+.p-2{
+    color: #424259;
+    font-size: 16px;
+    line-height: 24px;
+}
+.m{
+    width: 100%;
+    max-width: 1300px;
+    display: flex;
+    justify-content: center;
+    margin: 58px auto 58px;
+}
+.rozovmic2{
+    position: absolute;
+    left: 1370px;
+    top: 1430px;
+}
+.team1{
+    display: flex;
+    justify-content: center;
+    margin-top: 178px;
+    margin-bottom: 64px;
+}
+.team{
+    font-size: 48px;
+    line-height: 48px;
+}
+.executive{
+    color: #00F5BC;
+}
+
+/*Section-3*/
+.section-3{
+    width: 100%;
+    max-width: 1300px;
+    height: 500px;
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+.p-3{
+    color: #75808A;
+    font-size: 16px;
+    line-height: 33px;
+    text-align: center;
+    margin-top: 8px;
+}
+.avatar1{
+    padding: 0 90px 16px 90px;
+}
+.worker1{
+    width: 282px;
+    height: 226px;
+    padding-bottom: 48px;
+}
+.worker{
+    width: 282px;
+    height: 193px;
+}
+.paragraf{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+/*section-4*/
+.section-4{
+    
+}
