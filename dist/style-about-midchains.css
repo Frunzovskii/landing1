@@ -175,12 +175,23 @@ table {
     font-size: 16px;
     line-height: 24px;
 }
-.m{
+.get-started{
     width: 100%;
     max-width: 1300px;
+    height: 120px;
     display: flex;
     justify-content: center;
-    margin: 58px auto 58px;
+    margin: 20px auto;
+    align-items: center;
+}
+.get_started{
+    color: #000000;
+    font-size: 14px;
+    line-height: 20px;
+    border: 1px solid #00F5BC;
+    background-color: #00F5BC;
+    border-radius: 30px;
+    padding: 12px 50px 12px 50px;
 }
 .rozovmic2{
     position: absolute;
@@ -236,15 +247,15 @@ table {
     justify-content: center;
     align-items: center;
     }
-
-.verdemic22{
+.verdemic-2{
     position: absolute;
-    left: 250px;
-    top: 2275px;
+    top: 2320px;
+    left: 260px;
 }
 
+
 /*section-4*/
-.section-44{
+.section-444{
     width: 100%;
     max-width: 1300px;
     margin: 0 auto;
@@ -307,8 +318,7 @@ table {
     color: #00F5BC;
 }
 .interestedd{
-    width: 261px;
-    height: 44px;
+    padding: 12px 52px 12px 52px;
     border: 1px solid #00F5BC;
     border-radius: 30px;
     background-color: #00F5BC;
@@ -316,7 +326,6 @@ table {
     line-height: 20px;
     color: #0F172A;
     text-align: center;
-    line-height: 40px;
     margin-top: 48px;
 }
 

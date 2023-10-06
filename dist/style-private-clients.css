@@ -37,59 +37,29 @@
     margin-top: 20px;
     list-style: none;
 }
-.nb-1{
+.nb{
+    padding: 4px 16px 4px 16px;
     border: 1px solid #FF4171;
     border-radius: 23px;
     color: #FF4171;
-    height: 37px;
     text-align: center;
     line-height: 35px;
-    width: 128px;
-    margin-bottom:15px ;
     text-decoration: none;
+    margin-bottom: 16px;
 }
-.nb-2{
-    border: 1px solid #FF4171;
-    border-radius: 23px;
-    color: #FF4171;
-    height: 37px;
-    text-align: center;
-    line-height: 35px;
-    width: 79px;
-    margin-left: 5px;
-    text-decoration: none;
-}
-.nb-3{
-    border: 1px solid #FF4171;
-    border-radius: 23px;
-    color: #FF4171;
-    height: 37px;
-    text-align: center;
-    line-height: 35px;
-    width: 178px;
-    margin-left: 5px;
-}
-.nb-4{
-    border: 1px solid #FF4171;
-    border-radius: 23px;
-    color: #FF4171;
-    height: 37px;
-    text-align: center;
-    line-height: 35px;
-    width: 171px;
-}
+
 .interested{
     width: 261px;
     height: 44px;
     border: 1px solid #00F5BC;
     border-radius: 30px;
     background-color: #00F5BC;
-    font-size: 14px;
-    line-height: 20px;
+    font-size: 14px; 
     color: #0F172A;
     text-align: center;
-    line-height: 40px;
-    margin-top: 50px;
+    line-height: 44px;
+    margin-top: 60px;
+    text-decoration: none;
 }
 
 .port{
@@ -220,7 +190,7 @@ h5{
     line-height: 20px;
     color: #0F172A;
     text-align: center;
-    line-height: 40px;
+    line-height: 44px;
     margin-top: 48px;
 }
 
