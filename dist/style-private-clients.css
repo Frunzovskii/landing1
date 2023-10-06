@@ -1,83 +1,4 @@
-@import url('https://fonts.googleapis.com/css2?family=AR+One+Sans:wght@600&family=Anton&family=Inter:wght@400;700&family=Nanum+Myeongjo:wght@700&family=Open+Sans&family=Oswald:wght@700&family=Righteous&family=Sora:wght@600&family=Urbanist:wght@500;600&display=swap');
-/* http://meyerweb.com/eric/tools/css/reset/ 
-   v2.0 | 20110126
-   License: none (public domain)
-*/
 
-html, body, div, span, applet, object, iframe,
-h1, h2, h3, h4, h5, h6, p, blockquote, pre,
-a, abbr, acronym, address, big, cite, code,
-del, dfn, em, img, ins, kbd, q, s, samp,
-small, strike, strong, sub, sup, tt, var,
-b, u, i, center,
-dl, dt, dd, ol, ul, li,
-fieldset, form, label, legend,
-table, caption, tbody, tfoot, thead, tr, th, td,
-article, aside, canvas, details, embed, 
-figure, figcaption, footer, header, hgroup, 
-menu, nav, output, ruby, section, summary,
-time, mark, audio, video {
-	margin: 0;
-	padding: 0;
-	border: 0;
-	font-size: 100%;
-	vertical-align: baseline;
-}
-/* HTML5 display-role reset for older browsers */
-article, aside, details, figcaption, figure, 
-footer, header, hgroup, menu, nav, section {
-	display: block;
-}
-body {
-    font-family: 'AR One Sans';
-	line-height: 1;
-}
-	
-
-blockquote, q {
-	quotes: none;
-}
-blockquote:before, blockquote:after,
-q:before, q:after {
-	content: '';
-	content: none;
-}
-table {
-	border-collapse: collapse;
-	border-spacing: 0;
-}
-
-/*Navigation*/
-
-
-.navigation{
-    width: 100%;
-    max-width: 1300px;
-    margin: auto;
-    padding: 12px 0;
-    margin-bottom: 75px;
-}
-.nav-left{
-    display: flex;
-    flex-direction: row;
-    align-content: center;
-    align-items: center;
-    ;
-}
-.link{
-    text-decoration: none;
-    color: #0F172A;   
-}
-.nav-main_list{
-    display: flex;
-
-}
-.nav-right{
-    margin-left: auto;
-}
-.list{
-    margin-left: 25px;
-}
 
 /*Section-1*/
 .section-1{
@@ -170,15 +91,10 @@ table {
     line-height: 40px;
     margin-top: 50px;
 }
-#rosu{
-    position: absolute;
-    right: 150px;
-    top: 80px;
-}
-#verde{
-    position: absolute;
-    right: 510px;
-    top: 500px;
+
+.port{
+    width: 780px;
+    height: 500px;
 }
 
 
@@ -308,55 +224,6 @@ h5{
     margin-top: 48px;
 }
 
-.section-5{
-    display: flex;
-    flex-wrap: wrap;
-    justify-content: space-evenly;
-    padding-top: 100px;
-    margin-bottom: 100px;
-}
-h3{
-    font-size: 16px;
-    color: #0F172A;
-    margin-bottom: 20px;
-}
-li{
-    line-height: 25px;
-    color: #75808A;
-    list-style: none;
-}
-.section-6{
-    display: flex;
-    align-items: center;
-    justify-content: space-between;
-    width: 80%;
-    height: 63px;
-    background-color: #EEF2F6;
-    margin: 75px auto;
-    border: 1px solid #EEF2F6;
-    border-radius: 10px;
-    margin-bottom: 50px;
-}
-.store{
-    margin-left: 10px;
-}
-.icons{
-    margin-right: 10px;
-}
-
-
-.subtitles{
-    width: 80%;
-    height: 48px;
-    display: flex;
-    align-items: center;
-    text-align: center;
-    margin: 0 auto;
-}
-.more{
-   font-size:12px ; 
-   color: #75808A;
-}
 
 .endd{
     width: 80%;
