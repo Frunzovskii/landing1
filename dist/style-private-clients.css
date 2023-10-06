@@ -35,17 +35,17 @@
     display: flex;
     flex-wrap: wrap;
     margin-top: 20px;
-    list-style: none;
+    width: 461px;
 }
 .nb{
     padding: 4px 16px 4px 16px;
     border: 1px solid #FF4171;
     border-radius: 23px;
     color: #FF4171;
-    text-align: center;
     line-height: 35px;
     text-decoration: none;
     margin-bottom: 16px;
+    margin-left: 10px;
 }
 
 .interested{
